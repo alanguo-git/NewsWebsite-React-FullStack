@@ -319,7 +319,7 @@ class GuaArticlePage extends React.Component{
                                         <p ref={this.myRef}>{split.slice(4,desLen).join(".")}</p>
                                         <FaChevronUp className="FaChevronUp" onClick={this.onClick}/>
                                         <div className="upvote">
-                                            <FaRegThumbsUp className="FaRegThumbsUp" onClick={this.upvote()}/>
+                                            <FaRegThumbsUp className="FaRegThumbsUp" onClick={this.upvote}/>
                                             {this.state.upvotes}
                                         </div>
                                     </div>   
