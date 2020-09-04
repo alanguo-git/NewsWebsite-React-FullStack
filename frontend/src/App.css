@@ -1,0 +1,453 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.NavigationBar{
+  background: linear-gradient(to right,rgb(26,41,72),rgb(79,110,177));
+}
+
+#basic-navbar-nav a{
+  color: rgb(255,255,255,0.5);
+}
+
+#basic-navbar-nav a:hover{
+  color: rgb(255,255,255,1);
+}
+
+.selectBar{
+  width: 200px;
+  margin-right: 20px;
+}
+
+.NYTimes{
+  padding: .5rem 1rem;
+  cursor: default;
+}
+
+.Guardian{
+  padding: .5rem 1rem;
+  cursor: default;
+}
+
+.nav-link svg{
+  cursor: default;
+}
+
+#NavBookmark{
+  cursor: default;
+}
+
+.NewsBox{
+  color: black;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 2px 5px 10px #888888;
+  overflow: hidden;
+  width: 98%;
+}
+
+.NewsBox:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.NewsBoxLeft{
+  float: left;
+}
+
+.NewsBoxRight{
+  width: 100%;
+  padding-left: 260px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.NewsTitle{
+  display: inline-block;
+}
+
+.NewsTitle h3{
+  float: left;
+  font-style: oblique;
+}
+
+.NewsTitle svg{
+  margin: 10px;
+}
+
+.NewsBoxLeft img{
+  width: 240px;
+  height: 135px;
+  margin: 10px;
+  object-fit: cover;
+  padding: 3px;
+  border: solid;
+  border-width: thin;
+  border-color: lightgray;
+  border-radius: 5px;
+}
+
+
+.NewsBoxRight .Date{
+  margin-top: 10px;
+  display: inline-block;
+  font-style: oblique;
+}
+
+.NewsBoxRight .Section{
+  margin-top: 10px;
+}
+
+.WORLDTag{
+  background-color: #9933ff;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+  font-weight: 500;
+}
+
+.POLITICSTag{
+  background-color: #00b386;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+  font-weight: 500;
+}
+
+.BUSINESSTag{
+  background-color: #3399ff;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+  font-weight: 500;
+}
+
+.TECHNOLOGYTag{
+  background-color: #99cc00;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+  font-weight: 500;
+}
+
+.SPORTTag{
+  background-color: #ffcc00;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+  font-weight: 500;
+}
+
+.SPORTSTag{
+  background-color: #ffcc00;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+  font-weight: 500;
+}
+
+.otherTag{
+  background-color: #808080;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+  font-weight: 500;
+}
+
+.NYTIMESTag{
+  background-color: #D3D3D3;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-left: 3%;
+  float: right;
+  font-weight: 500;
+}
+
+.GUARDIANTag{
+  background-color: #003366;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-left: 3%;
+  float: right;
+  font-weight: 500;
+}
+
+.Loading{
+  position:absolute;  
+  left:50%;  
+  top:50%;  
+  margin: -50px 0 0 -30px 
+}
+
+.Icon{
+  border-radius: 50%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ModalBody{
+  text-align: center;
+}
+
+.ArticleDetail p{
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ArticleDetail h2{
+  margin-left: 3%;
+  text-align: left;
+  padding-top: 20px;
+  font-weight: normal;
+  font-style: oblique;
+}
+
+.ArticleDetail .Date{
+  font-style: oblique;
+  margin-left: 3%;
+}
+
+.Icons{
+  text-align: right;
+}
+
+.Icons .BookMark{
+  margin-right: 20px;
+}
+
+.Icons .BookMark:hover{
+  cursor: pointer;
+}
+
+.Date{
+  float: left;
+}
+
+.ArticleDetail img{
+  width: 95%;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ArticleDetail{
+  width: 93%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 5px 10px #888888;
+}
+
+.DetailDescription{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.DetailDescription p{
+  text-align: justify;
+}
+
+.DetailDescription .upvote{
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.DetailDescription .upvote .FaRegThumbsUp{
+  position: relative;
+  bottom: 2px;
+  margin-right: 10px;
+}
+
+.DetailDescription .FaChevronDown{
+  float: right;
+  position: relative;
+  top: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.DetailDescription .FaChevronUp{
+  float: right;
+  position: relative;
+  top: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.SearchResult h2{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.NewsCard{
+  color: black;
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 20px;
+  box-shadow: 2px 5px 10px #888888;
+  overflow: hidden;
+  width: 23%;
+}
+
+.NewsCard:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.NewsCard img{
+  width: 90%;
+  object-fit: cover;
+  padding: 5px;
+  border: solid;
+  border-width: thin;
+  border-color: lightgray;
+  border-radius: 5px;
+}
+
+.cardImage{
+  text-align: center;
+}
+
+.cardTitle .icons{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.cardTitle .MdShare{
+  margin-left: 10px;
+}
+
+.cardTitle h5{
+  display: inline;
+  white-space: pre-wrap;
+  font-style: oblique;
+}
+
+.cardTitle{
+  text-align: left;
+  margin: 5%;
+}
+
+.CardBottom{
+  margin: 5%;
+}
+
+.CardBottom .Date{
+  font-style: oblique;
+}
+
+.SearchResult{
+  text-align: left;
+}
+
+.Toastify__toast-container {
+  width: 400px;
+}
+
+.Favorite h2{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.Favorite{
+  text-align: left;
+}
+
+#basic-navbar-nav {
+  text-align: left;
+}
+
+#basic-navbar-nav a{
+  padding-left: 0;
+  margin-right: 10px;
+}
+
+#basic-navbar-nav .navbar-text{
+  padding-left: 0;
+}
+
+.MobileNewsBoxDescription{
+  margin-bottom: 20px;
+}
+
+.MobileNewsBox{
+  color: black;
+  display: inline-block;
+  margin: 15px;
+  box-shadow: 2px 5px 10px #888888;
+  overflow: hidden;
+  width: auto;
+}
+
+.MobileNewsBox:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.card-img-top{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+  object-fit: cover;
+  padding: 3px;
+  border: solid;
+  border-width: thin;
+  border-color: lightgray;
+  border-radius: 5px;
+}
+
+.card .Date{
+  font-style: oblique;
+}
+
+.card .card-title{
+  font-style: oblique;
+}
+
+.card-img-middle{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 100%;
+  object-fit: cover;
+  padding: 3px;
+  border: solid;
+  border-width: thin;
+  border-color: lightgray;
+  border-radius: 5px;
+}
